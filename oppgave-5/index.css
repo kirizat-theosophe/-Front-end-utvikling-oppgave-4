@@ -1,0 +1,14 @@
+body{
+    margin:0;
+    background-color: bisque;
+}
+
+#firkant{
+    background-color: green;
+    width:300px;
+    height:300px;
+    position: absolute;
+    top:50vh;
+    left:50vw;
+    transition: all 2s;
+}

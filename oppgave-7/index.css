@@ -1,0 +1,34 @@
+body{
+    background-color:rgb(217, 230, 220);
+}
+
+input[type="text"] {
+    margin: 0 30px 0px 10px;
+}
+
+#inputfelt{
+    position: absolute;
+    top:50px;
+    left:50px;
+}
+
+#nyhetsartikkel{
+    display:grid;
+    grid-template-columns: repeat(5,minmax(250px, 1fr) );
+    gap:10px;
+    margin-top:100px;
+}
+
+#nyhetsartikkel img{
+    width:100%;
+    height:100%;
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2{
+    text-align: center;
+}
